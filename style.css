@@ -1,0 +1,124 @@
+/*interface background colour change*/
+body{ 
+    animation: bgcolor infinite 15s;
+    font-family:monospace;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    
+
+
+}
+
+@keyframes bgcolor{
+    0%
+    {
+        background: #6b3e2e;
+
+    }
+    20%
+    {
+        background:#a1785c;
+
+    }
+    40%
+    {
+        background: #e3c099;
+
+    }
+    60%
+    {
+        background: #c38452;
+
+    }
+    80%
+    {
+        background: #795644;
+
+    }
+    100%
+    {
+        background: #6b3e2e;
+
+    }
+}
+
+h1
+{ 
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    color:bisque;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, 330%);
+    text-align:center;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+ }
+
+ .navibar{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     background-color:#e3c099;
+     position:sticky;
+     top:0; 
+     height: 2cm;
+
+ }
+
+ .navibar ul{
+     display:flex;
+     list-style: none;
+     margin:30px 0px;
+
+ }
+
+ .navbar ul li{
+     font-family: monospace;
+     font-size: larger;
+     font-weight: bolder;
+ }
+
+.navibar ul li a{
+    text-decoration: none;
+    color:#6b3e2e;
+    padding: 8px 25px; 
+    transition: all .5s ease;
+
+
+}
+.navibar ul li a:hover{
+     background-color:darkorange;
+     color:cadetblue;
+     box-shadow: 0 0 10px white;
+
+
+
+}
+
+/*home page*/
+
+#home{
+    display:flex;
+    flex-direction: column ;
+
+}
+
+#home::before{
+    content:"";
+    position:absolute;
+    top: O;
+    right:0;
+
+}
+
+
