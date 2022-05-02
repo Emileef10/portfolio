@@ -1,9 +1,10 @@
 /*interface background colour change*/
 body{ 
-    animation: bgcolor infinite 15s;
+    animation: bgcolor infinite 10s;
     font-family:monospace;
     font-size: 1.1rem;
     font-weight: bolder;
+
     
 
 
@@ -17,22 +18,22 @@ body{
     }
     20%
     {
-        background:#a1785c;
+        background:#6b3e2e;
 
     }
     40%
     {
-        background: #e3c099;
+        background: #6b3e2e;
 
     }
     60%
     {
-        background: #c38452;
+        background: #6b3e2e;
 
     }
     80%
     {
-        background: #795644;
+        background:#6b3e2e;
 
     }
     100%
@@ -47,12 +48,12 @@ h1
     margin: 0;
     padding: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     color:bisque;
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, 330%);
+    transform: translate(-50%, 100%);
     text-align:center;
 }
 
@@ -61,16 +62,21 @@ h2
     margin: 0;
     padding: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2em;
-    color:bisque;
+    font-size: 0.7cm;
+    font-weight: lighter;
+    color:#e3c099;
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, 930%);
+    transform: translate(-125%, 300%);
     text-align:center;
 }
 
+a{
+    color:#e3c099;
 
+
+}
 *{
     margin:0;
     padding:0;
@@ -111,9 +117,9 @@ h2
 
 }
 .navibar ul li a:hover{
-     background-color:#a1785c;
-     color:bisque;
-     box-shadow: 0 0 10px white;
+    background-color:#a1785c;
+    color:bisque;
+    box-shadow: 0 0 10px white;
 
 
 
@@ -137,25 +143,64 @@ h2
 
 /*disscussion posts*/
 
-#Discussions{
-    display: flex;
-    flex-direction: column;
-
-
-}
 
 h3{
     margin: 0;
     padding: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2em;
-    color:bisque;
+    font-size: 0.7cm;
+    font-weight: lighter;
+    color:#e3c099;
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, 1000%);
+    transform: translate(-40%, 1090%);
     text-align:center;
 }
+
+h4{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.7cm;
+    font-weight: lighter;
+    color:#e3c099;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-78%, 1900%);
+    text-align:center;
+
+}
+
+#pic1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-70%, 100%);
+    text-align:center;
+}
+
+#pic2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-30%, 270%);
+    text-align:center;
+}
+
+#pic3{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-70%, 380%);
+    text-align:center;
+    margin-bottom: 1cm;
+}
+
+
+
+
 
 
 
