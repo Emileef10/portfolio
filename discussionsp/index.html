@@ -8,40 +8,47 @@
     <script src="p5.js"></script>
     <link rel="stylesheet" href="style.css">
 
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <nav class="navibar">
-        <ul>
-            <li><a href="">Homepage</a></li>
-            <li><a href="./index.html">Discussions</a></li>
-            <li><a href="">Assignment 1</a></li>
-            <li><a href="#">Assignment 2</a></li>
-        
-        </ul>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active">Homepage</a>
+        <a href="./index.html">Discussions</a>
+        <a href="../assignment1/index.html">Assignment 1</a>
+        <a href="../assignment2/index.html">Assignment 2</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
     <div class="main">
-         <h1 class="discussions">Discussion Posts</h1>
-         <h2> <li><a href="https://canvascloud.ocadu.ca/courses/3335/discussion_topics/78672"></li>Discussion 1- Tool Standards and Poetics</h2>
-                <img id="pic1" src="discussion1.png" alt "discussionpost" width="800" height="300">
-            </a>
-        <h3> <li><a href="https://canvascloud.ocadu.ca/courses/3335/discussion_topics/78671"></li>Discussion 2- Turing Complete User & Laurel Schwulst</h2>
-                <img id="pic2" src="discussion2.png" alt "discussionpost2" width="800" height="300">
-               </a>
+        <h1 class="discussions">Discussion Posts</h1>
+        <h2 id="discussion1">
+            <a href="https://canvascloud.ocadu.ca/courses/3335/discussion_topics/78672">Discussion 1- Tool Standards and
+                Poetics</a>
+        </h2>
+        <img id="pic1" src="discussion1.png" alt="discussionpost" width="800" height="300">
 
-        <h4> <li><a href="https://canvascloud.ocadu.ca/courses/3335/discussion_topics/78670"></li>Discussion 3- Olia Lialina: Experience of Experiencing Experience</h2>
-                <img id="pic3" src="discussion3.png" alt "discussionpost3" width="800" height="350">
-            </a>
+        <h2>
+            <a href="https://canvascloud.ocadu.ca/courses/3335/discussion_topics/78671">Discussion 2- Turing Complete User & Laurel Schwulst</a>
+        </h2>
+        <img id="pic2" src="discussion2.png" alt="discussionpost2" width="800" height="300">
+               
+
+        <h2> 
+            <a href="https://canvascloud.ocadu.ca/courses/3335/discussion_topics/78670">Discussion 3- Olia Lialina: Experience of Experiencing Experience</a>
+        </h2>
         
-
-
-
-
-
-
-
-
-
-
+        <img id="pic3" src="discussion3.png" alt="discussionpost3" width="800" height="350">
+            
+        
+    </div>
 
 
 </body>
