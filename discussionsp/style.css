@@ -152,7 +152,7 @@ h3{
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-40%, 600%);
+    transform: translate(-40%, 300%);
     text-align:center;
 }
 
@@ -166,7 +166,7 @@ h4{
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-78%, 700%);
+    transform: translate(-78%, 1100%);
     text-align:center;
 
 }
