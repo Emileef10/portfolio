@@ -50,7 +50,6 @@ h1
     font-size: 4em;
     color:bisque;
     position: absolute;
-    
     left: 50%;
     transform: translate(-50%, 330%);
     text-align:center;
